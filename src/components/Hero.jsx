@@ -3,29 +3,50 @@ import React from 'react';
 const Hero = () => {
     return (
         <section id="about" className="hero">
-            <h1 className="hero-title">
-                I build technology that makes complex systems understandable for humans.
+            <div className="hero-badge">
+                <span className="dot" />
+                Startup Shell · University of Maryland
+            </div>
+
+            <h1 className="hero-name">
+                Avhaan Narang<br />
+                <span className="gradient-text">builds things that matter.</span>
             </h1>
-            <p className="hero-subtitle">
-                From AI healthcare tools to distributed systems research — I care about clarity, scale, and real-world usefulness.
+
+            <p className="hero-tagline">
+                CS @ UMD · AI, systems, and <strong>human-centered technology</strong>.
+                From award-winning hackathon projects to published research —
+                I care about clarity, scale, and real-world usefulness.
             </p>
-            <div className="hero-buttons">
+
+            <div className="hero-actions">
                 <a href="#projects" className="btn btn-primary">
-                    View Projects
+                    View Projects ↓
                 </a>
-                <a href="#interests" className="btn btn-secondary">
-                    What I’m Working On
+                <a href="https://www.linkedin.com/in/avhaan-narang/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
+                    LinkedIn →
+                </a>
+                <a href="mailto:avhaan26@terpmail.umd.edu" className="btn btn-ghost">
+                    Get in Touch
                 </a>
             </div>
 
-            <div className="hero-bio">
-                <p>
-                    I’m a CS student at UMD interested in AI, systems, and human-centered technology.
-                    I like building things where technical depth meets real impact.
-                </p>
-                <div style={{ marginTop: '20px', fontFamily: 'var(--font-mono)', fontSize: '0.9rem', color: 'var(--accent-color)' }}>
-                    <span style={{ marginRight: '15px' }}>// BUILDER @ STARTUP SHELL</span>
-                    <span>// CS @ UMD</span>
+            <div className="hero-stats">
+                <div className="stat">
+                    <span className="stat-number">🏆</span>
+                    <span className="stat-label">Technica Best UI/UX</span>
+                </div>
+                <div className="stat">
+                    <span className="stat-number">AWS</span>
+                    <span className="stat-label">AI/ML Intern</span>
+                </div>
+                <div className="stat">
+                    <span className="stat-number">1</span>
+                    <span className="stat-label">Published Research</span>
+                </div>
+                <div className="stat">
+                    <span className="stat-number">∞</span>
+                    <span className="stat-label">Curiosity</span>
                 </div>
             </div>
         </section>

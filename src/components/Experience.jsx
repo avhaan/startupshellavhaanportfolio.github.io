@@ -3,28 +3,28 @@ import React from 'react';
 const Experience = () => {
     return (
         <section id="experience" className="section">
-            <h2 className="section-title">Experience</h2>
+            <div className="section-header">
+                <div className="section-label">Career</div>
+                <h2 className="section-title">Experience</h2>
+                <p className="section-subtitle">
+                    Where I've applied my skills in the real world.
+                </p>
+            </div>
 
-            <div className="experience-header">
-                <div>
+            <div className="experience-card">
+                <div className="experience-top">
                     <div>
-                        <h3 style={{ fontSize: '1.4rem' }}>AI & Machine Learning Intern</h3>
-                        <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.9rem', color: 'var(--accent-color)', marginTop: '5px' }}>
-                            AWS · Amazon Web Services
-                        </div>
+                        <h3 className="experience-role">AI & Machine Learning Intern</h3>
+                        <div className="experience-company">AWS · Amazon Web Services</div>
                     </div>
                 </div>
 
-                <div style={{ textAlign: 'right' }}>
-                    {/* Date can be added if known */}
-                </div>
+                <ul className="experience-list">
+                    <li>Built NLP chatbot using AWS Lex + Lambda for conversational AI experiences.</li>
+                    <li>Worked on semantic processing and conversational systems at scale.</li>
+                    <li>Learned practical constraints of deploying AI in real production environments.</li>
+                </ul>
             </div>
-
-            <ul className="experience-list">
-                <li>Built NLP chatbot using AWS Lex + Lambda.</li>
-                <li>Worked on semantic processing and conversational systems.</li>
-                <li>Learned practical constraints of deploying AI in real environments.</li>
-            </ul>
         </section>
     );
 };
