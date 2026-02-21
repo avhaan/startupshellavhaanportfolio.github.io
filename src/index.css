@@ -287,6 +287,33 @@ p {
   color: #444;
 }
 
+.project-video {
+  margin-bottom: 20px;
+}
+
+.project-video iframe {
+  max-height: 400px;
+}
+
+.linkedin-post-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #0077B5, #005582);
+  color: white !important;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  opacity: 1 !important;
+}
+
+.linkedin-post-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 119, 181, 0.3);
+  opacity: 1 !important;
+}
+
 /* Experience */
 .experience-header {
   display: flex;

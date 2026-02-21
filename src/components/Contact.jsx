@@ -7,8 +7,8 @@ const Contact = () => {
                 <div>
                     <h2 style={{ fontSize: '1.5rem', marginBottom: '20px' }}>Connect</h2>
                     <div className="footer-links">
-                        <a href="mailto:anarang@umd.edu" className="footer-link">Email</a>
-                        <a href="https://linkedin.com/in/avhaannarang" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
+                        <a href="mailto:avhaan26@terpmail.umd.edu" className="footer-link">Email</a>
+                        <a href="https://www.linkedin.com/in/avhaan-narang/" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
                         <a href="https://github.com/avhaan" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a>
                     </div>
                 </div>

@@ -1,12 +1,27 @@
 import React from 'react';
 
-const ProjectCard = ({ title, subtitle, problem, solution, features, impact, learned, link }) => (
+const ProjectCard = ({ title, subtitle, problem, solution, features, impact, learned, link, videoEmbed, linkedinPost }) => (
     <div className="project-card">
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8rem', color: 'var(--accent-color)', marginBottom: '10px', textTransform: 'uppercase' }}>
             PROJECT //
         </div>
         <h3 className="project-title">{title}</h3>
         <div className="project-subtitle">{subtitle}</div>
+
+        {videoEmbed && (
+            <div className="project-video">
+                <iframe
+                    width="100%"
+                    height="360"
+                    src={videoEmbed}
+                    title={`${title} Demo`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    style={{ borderRadius: '12px', border: '1px solid rgba(255,255,255,0.08)', marginTop: '20px' }}
+                />
+            </div>
+        )}
 
         <div className="project-grid">
             <div>
@@ -38,6 +53,19 @@ const ProjectCard = ({ title, subtitle, problem, solution, features, impact, lea
         <div className="project-learned">
             <strong>What I learned:</strong> {learned}
         </div>
+
+        {linkedinPost && (
+            <div style={{ marginTop: '20px' }}>
+                <a
+                    href={linkedinPost}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="linkedin-post-link"
+                >
+                    <span style={{ marginRight: '8px' }}>🔗</span> View LinkedIn Post →
+                </a>
+            </div>
+        )}
     </div>
 );
 
@@ -47,8 +75,8 @@ const Projects = () => {
             <h2 className="section-title">Featured Projects</h2>
 
             <ProjectCard
-                title="VitalViewAI"
-                subtitle="Hackathon Winning AI Healthcare Tool (Technica - Best UI/UX)"
+                title="VitalViewAI — Technica 2025"
+                subtitle="🏆 Best UI/UX Award Winner · AI Healthcare Tool"
                 problem="Medical reports are unreadable for normal people, causing health anxiety and misunderstanding."
                 solution="An AI system that converts reports into visual, conversational insights."
                 features={[
@@ -58,6 +86,8 @@ const Projects = () => {
                     "Voice interaction support"
                 ]}
                 learned="Human-centered AI matters more than raw model accuracy. Good UX is a force multiplier for intelligence systems."
+                videoEmbed="https://www.youtube.com/embed/COiP4Kmg5ic"
+                linkedinPost="https://www.linkedin.com/posts/avhaan-narang_hackathon-technica2025-uiuxdesign-activity-7395969106136518656-geHj"
             />
 
             <ProjectCard
