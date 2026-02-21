@@ -110,21 +110,21 @@ const Projects = () => {
                 <ProjectCard
                     tag="RESEARCH"
                     title="Bringing Serverless to the Edge"
-                    subtitle="Independent research paper on serverless and edge computing for school administration."
-                    problem="I conducted independent research over two months with a research mentor, exploring the integration of serverless and edge computing for educational applications."
-                    solution="My paper, 'Bringing Serverless to the Edge: Challenges and Opportunities in School Administration,' highlights benefits of reduced latency, improved scalability, and cost-efficiency. It proposes the EduEdge framework, enabling real-time communication of student results via IoT devices."
-                    impact="The paper addresses technical challenges such as security and cold start optimization, and offers practical insights into leveraging serverless edge computing — paving the way for enhanced parental engagement and operational efficiency in schools."
-                    learned="Research is about patience and iteration. The best frameworks come from deeply understanding the constraints of real environments."
+                    subtitle="Challenges and Opportunities in School Administration"
+                    problem="I have conducted research independently from home alongside the help of a research mentor for approximately two months, furthering my interest in computer science."
+                    solution="My paper explores the integration of serverless and edge computing, highlighting the benefits of reduced latency, improved scalability, and cost-efficiency. It proposes the EduEdge framework, enabling real-time communication of student results via IoT devices."
+                    impact="The study addresses technical challenges, such as security and cold start optimization, and offers practical insights into leveraging serverless edge computing for educational applications, paving the way for enhanced parental engagement and operational efficiency. It also outlines future directions and best practices for robust implementations."
+                    learned="Independent research taught me that serverless at the edge is more than just a tech stack—it's about building robust, decentralized systems for real-world impact."
                 />
 
                 <ProjectCard
                     tag="COMMUNITY"
                     title="Winter Education Drive"
-                    subtitle="4-week teaching initiative in a remote slum community."
-                    problem="Children in underserved communities lacked access to foundational education in subjects like maths, English, and Hindi."
-                    solution="Organised a 4-week winter education drive where we visited a remote slum setting daily and taught kids the basics. These classes helped students succeed in scholarship exams and ultimately join schools."
-                    impact="Made a meaningful difference in children's lives by enabling school enrollment through scholarship success. Also hosted a Christmas Day event with fun activities and celebrations."
-                    learned="Education is the most direct form of impact. Showing up consistently matters more than any single grand gesture."
+                    subtitle="4-week teaching initiative in a remote slum setting"
+                    problem="Organised a winter education drive during the winter for 4 weeks. During the period, we went to a remote slum setting and taught kids the basics of subjects such as maths, english, hindi on a daily basis."
+                    solution="These classes helped the students to succeed in scholarship exams and ultimately join schools, making a meaningful difference in their lives."
+                    impact="We also hosted a christmas day event where the children engaged in fun activities and were also given chocolates as a part of the celebration."
+                    learned="Meaningful change starts by going where the need is greatest and committing to consistent effort over time."
                 />
             </div>
         </section>

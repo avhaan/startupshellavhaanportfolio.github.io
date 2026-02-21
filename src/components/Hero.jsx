@@ -9,12 +9,12 @@ const Hero = () => {
             </div>
 
             <h1 className="hero-name">
-                Avhaan Narang<br />
-                <span className="gradient-text">builds things that matter.</span>
+                Avhaan Narang's<br />
+                <span className="gradient-text">Startup Shell portfolio</span>
             </h1>
 
             <p className="hero-tagline">
-                Freshman studying CS@UMD. Interested in building things that matter and learning through iterating. Highly interested in <strong>networking, startups, hackathons, and digital work</strong>.
+                Freshman studying CS@UMD. Interested in building things that matter and learning through iterating. Highly interested in networking, startups, hackathons, and digital work.
             </p>
 
             <div className="hero-actions">
