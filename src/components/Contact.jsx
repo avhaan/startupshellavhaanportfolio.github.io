@@ -23,7 +23,7 @@ const Contact = () => {
                 </div>
 
                 <div className="footer-quote">
-                    "If software doesn't make life clearer, it's just noise."
+                    "If a product doesn't make life easier, it's...useless"
                 </div>
             </div>
 

@@ -109,22 +109,22 @@ const Projects = () => {
 
                 <ProjectCard
                     tag="RESEARCH"
-                    title="Serverless Edge Architecture"
-                    subtitle="Published research on distributed systems for schools in developing regions."
-                    problem="Centralized school systems are slow, bandwidth-heavy, and unreliable."
-                    solution="Edge devices process local data + AWS Lambda handles global coordination."
-                    impact="Lower latency, scalable infrastructure for developing regions."
-                    learned="Scalability isn't just a technical challenge — it's an accessibility problem."
+                    title="Bringing Serverless to the Edge"
+                    subtitle="Independent research paper on serverless and edge computing for school administration."
+                    problem="I conducted independent research over two months with a research mentor, exploring the integration of serverless and edge computing for educational applications."
+                    solution="My paper, 'Bringing Serverless to the Edge: Challenges and Opportunities in School Administration,' highlights benefits of reduced latency, improved scalability, and cost-efficiency. It proposes the EduEdge framework, enabling real-time communication of student results via IoT devices."
+                    impact="The paper addresses technical challenges such as security and cold start optimization, and offers practical insights into leveraging serverless edge computing — paving the way for enhanced parental engagement and operational efficiency in schools."
+                    learned="Research is about patience and iteration. The best frameworks come from deeply understanding the constraints of real environments."
                 />
 
                 <ProjectCard
                     tag="COMMUNITY"
                     title="Winter Education Drive"
-                    subtitle="Hands-on digital literacy workshops for underserved communities."
-                    problem="Lack of digital literacy and foundational computing skills in underserved communities."
-                    solution="Organized hands-on workshops and learning sessions."
-                    impact="Led to receiving the Mrs. Mira Sumer Singh Memorial Medal for youth leadership."
-                    learned="Technology matters most when it reaches people who weren't supposed to have access to it."
+                    subtitle="4-week teaching initiative in a remote slum community."
+                    problem="Children in underserved communities lacked access to foundational education in subjects like maths, English, and Hindi."
+                    solution="Organised a 4-week winter education drive where we visited a remote slum setting daily and taught kids the basics. These classes helped students succeed in scholarship exams and ultimately join schools."
+                    impact="Made a meaningful difference in children's lives by enabling school enrollment through scholarship success. Also hosted a Christmas Day event with fun activities and celebrations."
+                    learned="Education is the most direct form of impact. Showing up consistently matters more than any single grand gesture."
                 />
             </div>
         </section>

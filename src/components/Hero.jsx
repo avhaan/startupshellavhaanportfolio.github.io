@@ -14,9 +14,7 @@ const Hero = () => {
             </h1>
 
             <p className="hero-tagline">
-                CS @ UMD · AI, systems, and <strong>human-centered technology</strong>.
-                From award-winning hackathon projects to published research —
-                I care about clarity, scale, and real-world usefulness.
+                Freshman studying CS@UMD. Interested in building things that matter and learning through iterating. Highly interested in <strong>networking, startups, hackathons, and digital work</strong>.
             </p>
 
             <div className="hero-actions">
@@ -26,9 +24,7 @@ const Hero = () => {
                 <a href="https://www.linkedin.com/in/avhaan-narang/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
                     LinkedIn →
                 </a>
-                <a href="mailto:avhaan26@terpmail.umd.edu" className="btn btn-ghost">
-                    Get in Touch
-                </a>
+
             </div>
 
             <div className="hero-stats">
